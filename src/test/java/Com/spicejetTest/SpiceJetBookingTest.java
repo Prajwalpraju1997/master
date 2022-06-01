@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SpiceJetBookingTest {
-	
+	//open the browser
   public static void main(String[] args) throws InterruptedException {
 	  
 	  WebDriverManager.chromedriver().setup();
