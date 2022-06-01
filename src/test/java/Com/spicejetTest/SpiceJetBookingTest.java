@@ -13,7 +13,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class SpiceJetBookingTest {
 	
   public static void main(String[] args) throws InterruptedException {
-	  
+	 //open the browser
+ 
 	  WebDriverManager.chromedriver().setup();
 	  ChromeOptions opt=new ChromeOptions();
 	  opt.addArguments("--disable-notifications");
