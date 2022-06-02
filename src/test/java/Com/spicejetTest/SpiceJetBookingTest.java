@@ -11,12 +11,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SpiceJetBookingTest {
-	//open the browser
-
+	//spacejet
   public static void main(String[] args) throws InterruptedException {
-	  	//open the browser
-//open the browser
-//open the browser
+	  	
 	  WebDriverManager.chromedriver().setup();
 	  ChromeOptions opt=new ChromeOptions();
 	  opt.addArguments("--disable-notifications");
